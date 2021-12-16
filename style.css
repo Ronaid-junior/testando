@@ -46,6 +46,7 @@ header>p{
     text-shadow: 3px 3px rgba(0, 0, 0, 0.247);
     padding-left: 10px;
     padding-right: 10px;
+    display: block;
 
 }
 
@@ -127,7 +128,7 @@ div.video > iframe {
 
     position: absolute; /* Utilizando este atributo pode-se modificar os atributos abraixo */
     top: 5%;
-    left 5%;
+    left: 5%;
     width: 90%;
     height: 90%;
 }
