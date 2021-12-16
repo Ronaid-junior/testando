@@ -52,8 +52,8 @@ header>p{
 
 nav{
     background-color: var(--cor4);
-    color: yellow;
-    display: block;
+    color: white;
+    
 
 }
 
@@ -61,7 +61,7 @@ nav > a {
     color: white;
     text-decoration: none;
     padding: 5px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     transition-duration: .3s;
 }
 
@@ -169,13 +169,6 @@ footer{
     text-align: center;
     font-size: .8em; 
 }
-
-footer a {
-
-    
-
-}
-
 
 
 
