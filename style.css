@@ -53,7 +53,7 @@ header>p{
 nav{
     background-color: var(--cor4);
     color: white;
-    
+    min-width: 100px;
 
 }
 
