@@ -1,0 +1,177 @@
+@charset "utf-8";
+:root{
+--cor1: #B8FFC3;
+--cor2: #69FA81;
+--cor3: #51C264;
+--cor4: #337A3F;
+--cor5: #657E69;
+
+--fonte-padrão: Arial, Helvetica, sans-serif;
+--font-destaque: bebas neue;
+--font-tit: android;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+background-color: var(--cor1);
+
+}
+
+
+header{
+    height: 100px;
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom, var(--cor1) ,var(--cor4 ));
+    color: white;
+
+    
+}
+header > h1 {
+    font-family: var(--font-destaque);
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.247);
+    
+}
+
+header>p{
+    text-align: center;
+    width: max-content 400px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.247);
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+nav{
+    background-color: var(--cor4);
+    color: white;
+
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    padding-bottom: 0px;
+    transition-duration: .3s;
+}
+
+nav > a:hover{
+
+background-color: var(--cor5);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 120px;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 1.5;
+
+
+
+}
+
+img {
+    width: 100%;
+    
+}
+
+#bug {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+main h2 {
+    background-image: linear-gradient( to right, var(--cor4), transparent);
+    text-indent: 10px;
+}
+
+main p {
+
+    text-indent: 10px;
+    text-align: justify;
+}
+
+/* Esta parte vai deixar o player de vídeo responsivo tentando eliminar a rolagem lateral em dispositivos com telas menores */ 
+
+div.video {
+
+    background-color: var(--cor4);
+    margin: 0px -20px 30px -20px; /* Os valores negativos deixaram a div colada na margem do main */
+
+    padding: 20px; /* Alterando este valor modifica-se a barra preta que aparece dentro do player do vídeo */ 
+    padding-bottom: 59%;
+    
+    
+    position: relative;
+}
+
+div.video > iframe {
+
+    position: absolute; /* Utilizando este atributo pode-se modificar os atributos abraixo */
+    top: 5%;
+    left 5%;
+    width: 90%;
+    height: 90%;
+}
+/* Até aqui foi para a responsividade do player */
+
+
+
+
+#aprender {
+
+    background-color: var(--cor3);
+    padding: 5px 5px 10px 5px;
+    border-radius: 5px; 
+    
+
+}
+
+#aprender h2 {
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    margin-left: -4.5px;
+    margin-top: -4.5px;
+}
+
+#aprender ul {
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    background-color: var(--cor5);
+    text-align: center;
+    font-size: .8em; 
+}
+
+footer a {
+
+    
+
+}
+
+
+
+
