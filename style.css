@@ -52,7 +52,8 @@ header>p{
 
 nav{
     background-color: var(--cor4);
-    color: white;
+    color: yellow;
+    display: block;
 
 }
 
